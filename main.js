@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function () {
         .catch(error => console.error('Error fetching weather data:', error));
 
     // Fetch space weather data
-    fetch('https://api.nasa.gov/DONKI/FLR?startDate=2024-01-01&endDate=2024-08-08&api_key=DEMO_KEY')
+    fetch('https://api.nasa.gov/DONKI/FLR?startDate=2024-01-01&endDate=2024-08-18&api_key=yjxPK3bzI5rrXPIpZFcOYshoRSuf4suStj4mTtHI')
         .then(response => response.json())
         .then(spaceData => {
             const spaceWeatherDiv = document.getElementById('space-weather-data');
